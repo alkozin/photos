@@ -1,0 +1,22 @@
+PODS:
+  - Kingfisher (5.10.1):
+    - Kingfisher/Core (= 5.10.1)
+  - Kingfisher/Core (5.10.1)
+  - SwipeCellKit (2.7.1)
+
+DEPENDENCIES:
+  - Kingfisher (~> 5.10.1)
+  - SwipeCellKit (~> 2.7.1)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
+    - SwipeCellKit
+
+SPEC CHECKSUMS:
+  Kingfisher: eb36b7dfcc78d60877051c92c119a2865972961a
+  SwipeCellKit: 3972254a826da74609926daf59b08d6c72e619ea
+
+PODFILE CHECKSUM: d8c84790307fcf191ea2dc91bd3b2943dc094a0c
+
+COCOAPODS: 1.8.4

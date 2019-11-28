@@ -1,0 +1,12 @@
+/* 
+  Localizable.strings
+  VimpiOil
+
+  Created by Alex Kozin on 13/12/2018.
+  Copyright © 2019 Alex Kozin. All rights reserved.
+*/
+
+"Common.hostNotReachable.title" = "Error";
+"Common.hostNotReachable.message" = "Pleasy try again later";
+
+"Common.ok" = "OK";

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11232" systemVersion="16B2555" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="BaseEntity" representedClassName=".BaseEntity" syncable="YES">
+        <attribute name="id" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <userInfo>
+            <entry key="relatedByAttribute" value="id"/>
+        </userInfo>
+    </entity>
+    <entity name="Comment" representedClassName=".Comment" parentEntity="BaseEntity" syncable="YES">
+        <attribute name="body" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <userInfo>
+            <entry key="relatedByAttribute" value="id"/>
+        </userInfo>
+    </entity>
+    <entity name="Event" representedClassName=".Event" parentEntity="BaseEntity" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="comments" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Comment" syncable="YES"/>
+        <userInfo>
+            <entry key="relatedByAttribute" value="id"/>
+        </userInfo>
+    </entity>
+    <elements>
+        <element name="BaseEntity" positionX="-63" positionY="-18" width="128" height="60"/>
+        <element name="Comment" positionX="-54" positionY="0" width="128" height="90"/>
+        <element name="Event" positionX="-54" positionY="18" width="128" height="90"/>
+    </elements>
+</model>
